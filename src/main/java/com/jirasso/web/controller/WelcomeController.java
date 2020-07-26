@@ -19,13 +19,6 @@ public class WelcomeController {
         return "index";
 
     }
-    @GetMapping("/login")
-    public String login(Model model) {
-        logger.debug("Login page");
-
-        return "login";
-    }
-
 
     public String getMessage() {
         return "Hello World";

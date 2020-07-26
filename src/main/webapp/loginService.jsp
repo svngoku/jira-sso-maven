@@ -5,6 +5,6 @@
         session.setAttribute("userId", email);
         response.sendRedirect("logged.jsp");
     } else {
-        out.println("Invalid password <a href='login.jsp'>try again</a>");
+        System.out.println("Invalid password <a href='login.jsp'>try again</a>");
     }
 %>

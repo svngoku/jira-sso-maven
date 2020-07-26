@@ -16,7 +16,6 @@
 <body>
     <%
         if ((session.getAttribute("userId") != null) || (session.getAttribute("userId") != "")) {
-        response.sendRedirect("logged.jsp");
     %>
     <%} else { %>
     <div id="page" class="Hybrid">

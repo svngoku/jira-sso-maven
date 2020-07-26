@@ -63,11 +63,6 @@
       <artifactId>atlassian-auth-jira</artifactId>
       <version>1.2.0</version>
     </dependency>
-    <dependency>
-      <groupId>com.jirasso.web</groupId>
-      <artifactId>java-web-project</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
   </dependencies>
   <build>
     <finalName>java-web-project</finalName>
