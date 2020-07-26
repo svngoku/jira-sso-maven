@@ -1,0 +1,3 @@
+com/jirasso/web/WebInitializer.class
+com/jirasso/web/config/SpringConfig.class
+com/jirasso/web/controller/WelcomeController.class
