@@ -14,10 +14,6 @@
 </head>
 
 <body>
-    <%
-        if ((session.getAttribute("userId") != null) || (session.getAttribute("userId") != "")) {
-    %>
-    <%} else { %>
     <div id="page" class="Hybrid">
         <h2 class="">Connexion SSO </h2>
         <form method="POST" class="aui" action="loginService.jsp">
@@ -36,10 +32,7 @@
             </div>
         </form>
     </div>
-    <%
-        }
-    %>
-    <script>
+   <script>
     </script>
 </body>
 
