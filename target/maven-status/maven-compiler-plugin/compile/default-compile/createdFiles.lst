@@ -1,4 +1,6 @@
+com/jirasso/web/JIRAuth.class
 com/jirasso/web/WebInitializer.class
 com/jirasso/web/config/SpringConfig.class
+LoginController.class
 com/jirasso/web/controller/WelcomeController.class
 com/jirasso/web/LoginServelet.class
